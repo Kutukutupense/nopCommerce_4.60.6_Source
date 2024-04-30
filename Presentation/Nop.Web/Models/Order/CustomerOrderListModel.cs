@@ -13,7 +13,7 @@ namespace Nop.Web.Models.Order
             RecurringOrders = new List<RecurringOrderModel>();
             RecurringPaymentErrors = new List<string>();
         }
-
+        // deneme github
         public IList<OrderDetailsModel> Orders { get; set; }
         public IList<RecurringOrderModel> RecurringOrders { get; set; }
         public IList<string> RecurringPaymentErrors { get; set; }
